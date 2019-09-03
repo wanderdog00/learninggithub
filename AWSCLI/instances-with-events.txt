@@ -1,1 +1,1 @@
-aws ec2 describe-instance-status --filters Name=event.code,Values=instance-reboot,system-reboot,system-maintenance,instance-retirement,instance-stop 
+aws ec2 describe-instance-status --filters Name=event.code,Values=instance-reboot,system-reboot,system-maintenance,instance-retirement,instance-stop  
